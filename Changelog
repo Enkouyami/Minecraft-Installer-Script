@@ -1,0 +1,42 @@
+Version 1.4.1 (09 July 2012)
+Renamed the second UninstallMinecraftA to UninstallMinecraftB since it was incorectly named.  
+Moved UninstallMinecraftB function up above UninstallMinecraft2 since procedurally it comes before.
+Removed the spaces before () througout the script.
+
+Version 1.4 (03 July 2012)
+Added more checks for existing files & folders in installation processes.
+Added checks for items that could have been made in previous versions but have changed.
+Removed the need for the folder "install_files".
+Added /usr/local/games to PATH by creating a script in /etc/profile.d/
+Reorganized script and other minor improvements/corrections.
+Fixed spelling and other language errors.
+Fixed my error in thinking that Description AKA GenericName was actually description instead of a generic name.
+Added new content to the menu shortcut such as options from right clicking with unity.
+Made it so that the icons are installed via xgd.
+Updated Java Menu and checking.
+
+Version 1.3 (03 June 2012).
+Changed the location of the shell script from '/usr/local/bin' to '/usr/local/games'.
+Changed the the description for the desktop launcher from being a Comment to a Description(GenericName).
+Fixed the UpdateLwjgl function and put a comment briefly explaining what it does.
+Fixed 'folder still exists' errors when using remove directory commands.
+Edited script to use 'case' for letter and number choices in selection menus.
+Minor fixes here and there.
+
+Version 1.2 (08 May 2012)
+Added and option to update the Lightweight Java Game Engine in Troubleshooting.
+Changed names of labels and functions.
+Changed uegensan:ppa to webupd8:ppa for more update. Webupdate uses uegensan then does bug fixes.
+Added more comments to be shown when going through the various steps of the script.
+Updated the installation and removal functions
+Fixed problems in writing shortcuts where values were not being written.
+Removed redundant steps.
+
+Version 1.1 (22 March 2012)
+Minor fixes here and there.
+
+Version 1.0
+Fixed a some of allocs's syntax problems.
+Reorganized the entire script into separate functions and added new ones.
+Made the script more legible.
+Fixed a few problems here and there.
