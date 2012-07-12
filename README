@@ -1,0 +1,23 @@
+Complete Bash Minecraft Installer
+Copyright (C) 2012  Ely Lizaire (Enkouyami)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+For any suggestions or feedback, reach me at http://www.minecraftforum.net/topic/1114574-bash-minecraft-installer/ or send me an e-mail at enkouyami@gmail.com
+
+This script was inspired by Alloc's Minecraft Installer at http://www.minecraftforum.net/topic/250945-install-ubuntu-minecraft-installer-update-20/
+Alloc's e-mail: Alloc@dr.com
+
+This script attempts to install Minecraft.
+It also has s to download Minecraft files directly from minecraft.net, install Oracle Java, Sun Java, and or OpenJDK.
