@@ -2,6 +2,8 @@ Version 1.5
 Added color to various parts of the script.
 Fixed the problem with CheckJavas function so that it will check for the default java client using "java -version", check for OpenJDK 6, and for it to more clearly state what it doing when it outputted the results of "ls /usr/lib/jvm/"
 Reverted a change so that after an if statement, "then" would be on a new line instead of being at the end of the "if" line with a semicolon, for better readability.
+Minor changes to menus.
+Added support for installing Java 6 on Debian.
 
 Version 1.4.1 (09 July 2012)
 Renamed the second UninstallMinecraftA to UninstallMinecraftB since it was incorectly named.  
